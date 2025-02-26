@@ -1,0 +1,7 @@
+<svg width="200" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M10 25h180" stroke="#166534" stroke-width="2"/>
+  <text x="20" y="35" font-family="Arial" font-size="24" fill="#166534">
+    Alpinia
+  </text>
+  <path d="M160 15c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10 10 4.477 10 10" fill="#166534"/>
+</svg> 
