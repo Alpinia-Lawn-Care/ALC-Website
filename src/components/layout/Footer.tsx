@@ -44,9 +44,9 @@ export default function Footer() {
                   <FaPhoneAlt className="mr-3" />
                   <span>(956) 295-6043</span>
                 </a>
-                <a href="mailto:info@alpinialawncare.com" className="flex items-center text-white/90 hover:text-white transition-colors mt-2">
+                <a href="mailto:alpinialawncare@gmail.com" className="flex items-center text-white/90 hover:text-white transition-colors mt-2">
                   <FaEnvelope className="mr-3" />
-                  <span>info@alpinialawncare.com</span>
+                  <span>alpinialawncare@gmail.com</span>
                 </a>
               </div>
               <div className="border-t border-white/10 pt-4">
@@ -63,14 +63,14 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">Connect With Us</h3>
             <div className="space-y-4">
               <div className="flex space-x-6">
-                <a 
+                {/* <a 
                   href="https://facebook.com/alpinialawncare" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-white/90 hover:text-white transition-colors"
                 >
                   <FaFacebook size={24} />
-                </a>
+                </a> */}
                 <a 
                   href="https://instagram.com/alpinialawncare" 
                   target="https://www.instagram.com/alpinialawncare/" 
@@ -80,7 +80,7 @@ export default function Footer() {
                   <FaInstagram size={24} />
                 </a>
                 <a 
-                  href="https://www.homeadvisor.com/alpinialawncare" 
+                  href="https://www.homeadvisor.com/rated.BrickInstallationMiami.148708408.html" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-white/90 hover:text-white transition-colors"

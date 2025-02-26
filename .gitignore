@@ -37,4 +37,7 @@ next-env.d.ts
 .vscode/
 
 # Images (if using placeholder images)
-/public/images/placeholder* 
+/public/images/placeholder*
+
+# Add these if not already present
+.gh-pages/ 
