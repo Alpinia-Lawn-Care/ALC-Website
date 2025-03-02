@@ -29,6 +29,7 @@ export default function Header() {
             <Link href="/" className="text-white/90 hover:text-white transition-colors">Home</Link>
             <Link href="/services" className="text-white/90 hover:text-white transition-colors">Services</Link>
             <Link href="/about" className="text-white/90 hover:text-white transition-colors">About</Link>
+            <Link href="/blog" className="text-white/90 hover:text-white transition-colors">Blog</Link>
             <Link href="/contact" className="text-white/90 hover:text-white transition-colors">Contact</Link>
           </div>
         </div>
