@@ -17,7 +17,7 @@ export default function Contact() {
     {
       icon: <FaMapMarkerAlt className="w-5 h-5" />,
       title: "Service Area",
-      content: "Rio Grande Valley, TX\nMcAllen • Mission • Edinburg",
+      content: "Rio Grande Valley, TX\nMcAllen • Edinburg",
     }
   ];
 

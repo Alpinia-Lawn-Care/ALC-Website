@@ -4,28 +4,30 @@ import Image from 'next/image';
 const serviceAreas = [
   {
     city: "McAllen",
-    zip: "78501"
+    zip: "78501",
+    primary: true
   },
   {
     city: "Edinburg",
-    zip: "78539"
-  },
-  {
-    city: "Mission",
-    zip: "78572"
-  },
-  {
-    city: "Pharr",
-    zip: "78577"
-  },
-  {
-    city: "San Juan",
-    zip: "78589"
-  },
-  {
-    city: "Alamo",
-    zip: "78516"
+    zip: "78539",
+    primary: true
   }
+  // {
+  //   city: "Mission",
+  //   zip: "78572"
+  // },
+  // {
+  //   city: "Pharr",
+  //   zip: "78577"
+  // },
+  // {
+  //   city: "San Juan",
+  //   zip: "78589"
+  // },
+  // {
+  //   city: "Alamo",
+  //   zip: "78516"
+  // }
 ];
 
 export default function Footer() {
@@ -98,20 +100,30 @@ export default function Footer() {
               <FaMapMarkerAlt className="mr-2" />
               Service Areas
             </h3>
-            <div className="grid grid-cols-2 gap-x-4 gap-y-2">
-              {serviceAreas.map((area) => (
-                <div 
-                  key={area.city} 
-                  className="flex items-center text-white/90"
-                >
-                  <FaCheckCircle className="text-green-500 text-xs mr-1.5" />
-                  <span className="text-sm">{area.city}</span>
-                </div>
-              ))}
-            </div>
-            <p className="mt-4 text-xs text-white/70 border-t border-white/10 pt-4">
-              Serving the Rio Grande Valley area
+            <p className="text-sm text-white/90 mb-3">
+              Proudly serving the Rio Grande Valley, Texas
             </p>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-sm font-semibold text-white/90 mb-2">Primary Service Areas:</h4>
+                <div className="grid grid-cols-2 gap-x-4 gap-y-2">
+                  {serviceAreas.map((area) => (
+                    <div 
+                      key={area.city} 
+                      className="flex items-center text-white/90"
+                    >
+                      <FaCheckCircle className="text-green-500 text-xs mr-1.5" />
+                      <span className="text-sm">{area.city}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div className="border-t border-white/10 pt-4">
+                <p className="text-xs text-white/80">
+                  Available for service in surrounding RGV areas - contact us to check availability in your location.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <div className="mt-12 text-center border-t border-white/10 pt-8">
