@@ -1,6 +1,6 @@
 ---
 title: "Spring Lawn Care Tips: How to Prepare Your Lawn for a Lush, Green Season"
-date: "2024-03-02"
+date: "2025-03-01"
 author: "Alpinia Lawn Care Team"
 excerpt: "Learn essential spring lawn care tips to ensure your grass thrives throughout the season. From soil testing to proper watering techniques, we cover everything you need for a beautiful lawn."
 coverImage: "/images/blog/spring-lawn-care.png"
